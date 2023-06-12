@@ -1,0 +1,314 @@
+.nav-logo {
+    width: 3.75rem;
+}
+
+.navbar-brand {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.navbar {
+    background: url(https://deananddennys.com/contenidos/1611864432.jpg);
+    background-position: center top;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    padding: .625rem 0rem;
+}
+
+.cover-promociones {
+    background: url(https://deananddennys.com/contenidos/1612268770.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10rem;
+    margin-bottom: 1.25rem;
+}
+
+.promo {
+    padding: 0rem 1.25rem;
+    text-align: start;
+}
+
+.img-promo {
+    width: 100%;
+}
+
+p,
+h3 {
+    margin: 0rem;
+}
+
+.promo-verde {
+    color: #7BA744;
+    margin-top: .625rem;
+}
+
+.promo-titulo {
+    font-size: 1.3125rem;
+}
+
+.promo-acumulable {
+    font-size: .875rem;
+    color: #A4A4A4;
+    margin: .9375rem 0rem 1.5625rem 0rem;
+}
+
+hr {
+    width: 100%;
+}
+
+.promo-button {
+    display: grid;
+}
+
+.promo-button button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid #67A744 .125rem;
+    color: #67A744;
+    font-size: .9375rem;
+    padding: .3125rem 0rem;
+    margin-top: .625rem;
+}
+
+.promo-acumulable-2 {
+    font-size: .875rem;
+    color: #A4A4A4;
+    margin: .9375rem 0rem 0rem 0rem;
+}
+
+.seguinos {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5625rem .9375rem;
+    text-align: center;
+}
+
+.seguinos button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    padding: .625rem;
+}
+
+.seguinos-text {
+    margin-top: 1.25rem;
+    padding: .3125rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .9375rem;
+    padding: 1.25rem;
+    background-color: black;
+    color: white;
+}
+
+footer img {
+    width: 6.25rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+    margin: .9375rem 0rem;
+    padding: 0rem;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-final-rrss-icons {
+    display: flex;
+    justify-content: center;
+    gap: .3125rem;
+    margin-bottom: .625rem;
+}
+
+i {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: solid white .125rem;
+    border-radius: 100%;
+    padding: .9375rem;
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.footer-final-button {
+    display: grid;
+    gap: .5rem;
+}
+
+.footer-final-button button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: solid white .125rem;
+    padding: .375rem 0rem;
+}
+
+.footer-final-copy p {
+    font-size: .625rem;
+    text-align: center;
+}
+
+.seguinos-botones {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HISTORIA */
+
+.historia {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .9375rem 0rem;
+}
+
+.historia h2 {
+    padding-bottom: .9375rem;
+    margin: 0rem;
+}
+
+.historia-text {
+    height: 15.625rem;
+    overflow: auto;
+    margin-bottom: .9375rem;
+    padding: 0rem .625rem;
+}
+
+.historia img {
+    width: 100%;
+}
+
+.trabajo {
+    background: url(https://deananddennys.com/img/nosotros/fondo_rrhh.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: .9375rem .625rem;
+    text-align: center;
+    color: white;
+}
+
+.trabajo p {
+    margin: 1.25rem 0rem;
+}
+
+a {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .cover-promociones {
+        height: 18.125rem;
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: .9375rem;
+    }
+
+    .promo img {
+        width: 35%;
+    }
+
+    .promo-button {
+        width: 12.5rem;
+    }
+
+    .contenedor {
+        width: 95%;
+        margin: auto;
+    }
+
+    .seguinos-botones {
+        flex-direction: row;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 1.25rem;
+    }
+
+    .seguinos-botones button {
+        width: 18.75rem;
+    }
+
+    .seguinos-text {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: center;
+        gap: .9375rem;
+    }
+
+    footer ul {
+        flex-direction: row;
+    }
+
+    .footer-final-rrss {
+        display: flex;
+        flex-direction: row;
+        gap: .625rem;
+    }
+
+    .footer-final-rrss-icons {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-final-button {
+        display: flex;
+    }
+
+    .footer-final-button button {
+        width: 8.125rem;
+    }
+
+    .footer-final {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: .625rem;
+    }
+
+    .footer-parte-2 {
+        flex-grow: 1;
+    }
+
+    .historia {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .historia img {
+        width: 40%;
+    }
+
+    .historia-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .trabajo {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
