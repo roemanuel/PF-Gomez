@@ -1,0 +1,32 @@
+* {
+  margin: auto;
+}
+
+i {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  border: solid white .125rem;
+  border-radius: 100%;
+  padding: .9375rem;
+  height: 1.875rem;
+  width: 1.875rem;
+  margin: 0;
+}
+
+p,
+h3 {
+  margin: 0rem;
+}
+
+hr {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 100%;
+}

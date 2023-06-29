@@ -1,0 +1,80 @@
+@mixin width($width) {
+  height: $width;
+}
+
+.index_main {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  .seguinos {
+    @include width(100%);
+  }
+}
+
+.locales_768px {
+  display: none;
+}
+
+.locales_320px {
+  margin: 3.125rem 0;
+  display: grid;
+  gap: .3125rem;
+  justify-items: center;
+  @include width(90%);
+
+  h2 {
+    font-size: .9375rem;
+    font-weight: 400;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  button {
+    background-color: none;
+    color: $green;
+    border: solid .1875rem $green;
+    background-color: $transparent;
+    @include width(12.5rem);
+  }
+}
+
+.local {
+  margin-top: 2.5rem;
+
+  .local_h2 {
+    margin: 0rem 0rem .3125rem 0rem;
+  }
+
+  .local_p {
+    margin: 0rem 0rem .9375rem 0rem;
+  }
+
+  .local_h2,
+  .local_p {
+    color: #444444;
+  }
+}
+
+.lista_locales_content {
+  h3 {
+    color: #212121;
+  }
+}
+
+.seguinos {
+  background-color: black;
+  padding: 1.875rem 0rem 3.75rem 0rem;
+
+  p {
+    margin-bottom: .9375rem;
+  }
+
+  h2,
+  p {
+    color: white;
+  }
+}

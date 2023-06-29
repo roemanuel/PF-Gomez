@@ -1,0 +1,84 @@
+.historia {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .9375rem 0rem;
+
+  h2 {
+    padding-bottom: .9375rem;
+    margin: 0rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .historia-text {
+    height: 15.625rem;
+    overflow: auto;
+    max-width: 600px;
+    margin-bottom: 2.1875rem;
+    padding: 0rem .625rem;
+  }
+
+  .historia-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .9375rem;
+    margin-bottom: .625rem;
+  }
+}
+
+
+
+.trabajo {
+  background: url(https://deananddennys.com/img/nosotros/fondo_rrhh.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: .9375rem .625rem;
+  text-align: center;
+  color: white;
+
+  .trabajo_container {
+    width: 70%;
+  }
+
+  h2 {
+    margin-top: 1.875rem;
+  }
+
+  p {
+    margin: 1.25rem 0rem;
+  }
+}
+
+.seguinos {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .seguinos-botones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 48.5625rem;
+    padding: .625rem;
+
+    .seguinos-text {
+      padding: .3125rem;
+      width: 100%;
+    }
+
+    button {
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      color: white;
+      padding: .625rem;
+      width: 100%;
+    }
+  }
+}

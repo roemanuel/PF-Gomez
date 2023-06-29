@@ -1,0 +1,578 @@
+* {
+  margin: auto;
+}
+
+i {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  border: solid white 0.125rem;
+  border-radius: 100%;
+  padding: 0.9375rem;
+  height: 1.875rem;
+  width: 1.875rem;
+  margin: 0;
+}
+
+p,
+h3 {
+  margin: 0rem;
+}
+
+hr {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  background-color: black;
+  color: white;
+}
+footer .footer_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 68.75rem;
+}
+footer img {
+  width: 9.375rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin: 0.9375rem 0rem;
+  padding: 0rem;
+  text-align: center;
+  list-style: none;
+}
+footer .footer-parte-2 .footer-menu a {
+  text-decoration: none;
+}
+
+.footer-final-rrss-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+.footer-final-rrss-icons a {
+  text-decoration: none;
+}
+
+.footer-final-button {
+  display: grid;
+  gap: 0.5rem;
+}
+.footer-final-button a .footer-final-button_contacto, .footer-final-button a .footer-final-button_franquicias {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: solid white 0.125rem;
+  padding: 0.375rem;
+}
+.footer-final-button .footer-final-copy p {
+  font-size: 0.625rem;
+  text-align: center;
+}
+
+.nav-logo {
+  width: 3.75rem;
+}
+
+.navbar-brand {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.navbar {
+  background: url(https://deananddennys.com/contenidos/1611864432.jpg);
+  background-position: center top;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav {
+  padding: 0.625rem 0rem;
+}
+
+.index_main {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.index_main .seguinos {
+  height: 100%;
+}
+
+.locales_768px {
+  display: none;
+}
+
+.locales_320px {
+  margin: 3.125rem 0;
+  display: grid;
+  gap: 0.3125rem;
+  justify-items: center;
+  height: 90%;
+}
+.locales_320px h2 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.locales_320px h1,
+.locales_320px h2 {
+  text-align: center;
+}
+.locales_320px button {
+  background-color: none;
+  color: #67A744;
+  border: solid 0.1875rem #67A744;
+  background-color: rgba(255, 255, 255, 0);
+  height: 12.5rem;
+}
+
+.local {
+  margin-top: 2.5rem;
+}
+.local .local_h2 {
+  margin: 0rem 0rem 0.3125rem 0rem;
+}
+.local .local_p {
+  margin: 0rem 0rem 0.9375rem 0rem;
+}
+.local .local_h2,
+.local .local_p {
+  color: #444444;
+}
+
+.lista_locales_content h3 {
+  color: #212121;
+}
+
+.seguinos {
+  background-color: black;
+  padding: 1.875rem 0rem 3.75rem 0rem;
+}
+.seguinos p {
+  margin-bottom: 0.9375rem;
+}
+.seguinos h2,
+.seguinos p {
+  color: white;
+}
+
+.img {
+  background-image: url(../img/menu_background_img.webp);
+  width: 100%;
+  height: 18.0625rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clasificacion {
+  display: flex;
+  overflow: auto;
+  text-align: center;
+  gap: 1.875rem;
+  margin: 1.875rem 0.625rem;
+}
+.clasificacion .categoria {
+  display: inline-block;
+  text-align: center;
+}
+.clasificacion .categoria img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.producto {
+  text-align: center;
+  margin: 1.875rem;
+  display: grid;
+  justify-content: center;
+}
+.producto h2 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.producto .producto_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9375rem;
+  max-width: 65rem;
+  margin-top: 1.875rem;
+}
+.producto .producto_img .producto_img_container {
+  width: 18.75rem;
+  margin: 0 auto;
+}
+.producto .producto_img .producto_img_container img {
+  max-width: 20.8125rem;
+}
+.producto .producto_img .producto_img_container p {
+  margin: 0.625rem 0.625rem 0 0.625rem;
+}
+.producto .producto_img .producto_img_container .producto_img_container_strong {
+  font-weight: bold;
+}
+
+.locales_img {
+  background-image: url(../img/locales_background_img.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 18.0625rem;
+  margin-bottom: 2.5rem;
+}
+
+.locales {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.locales h2 {
+  margin-bottom: 0.625rem;
+}
+.locales p {
+  margin-bottom: 1.875rem;
+}
+.locales .locales_fotos_contenedor {
+  margin: 0rem 0.625rem 3.75rem 0.625rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  max-width: 1100px;
+}
+.locales .locales_fotos_contenedor .locales_fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+.locales .locales_fotos_contenedor .locales_fotos img {
+  width: 100%;
+  max-width: 20.8125rem;
+  max-height: 20.8125rem;
+}
+.locales .locales_fotos_contenedor .locales_fotos p {
+  margin: 0;
+}
+.locales .locales_fotos_contenedor .locales_fotos a {
+  width: 100%;
+}
+.locales .locales_fotos_contenedor .locales_fotos a button {
+  border: solid 0.1875rem #67A744;
+  color: #67A744;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+}
+
+.historia {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.9375rem 0rem;
+}
+.historia h2 {
+  padding-bottom: 0.9375rem;
+  margin: 0rem;
+}
+.historia img {
+  width: 100%;
+}
+.historia .historia-text {
+  height: 15.625rem;
+  overflow: auto;
+  max-width: 600px;
+  margin-bottom: 2.1875rem;
+  padding: 0rem 0.625rem;
+}
+.historia .historia-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.9375rem;
+  margin-bottom: 0.625rem;
+}
+
+.trabajo {
+  background: url(https://deananddennys.com/img/nosotros/fondo_rrhh.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 0.9375rem 0.625rem;
+  text-align: center;
+  color: white;
+}
+.trabajo .trabajo_container {
+  width: 70%;
+}
+.trabajo h2 {
+  margin-top: 1.875rem;
+}
+.trabajo p {
+  margin: 1.25rem 0rem;
+}
+
+.seguinos {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.seguinos .seguinos-botones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 48.5625rem;
+  padding: 0.625rem;
+}
+.seguinos .seguinos-botones .seguinos-text {
+  padding: 0.3125rem;
+  width: 100%;
+}
+.seguinos .seguinos-botones button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  padding: 0.625rem;
+  width: 100%;
+}
+
+.cover-promociones {
+  background: url(https://deananddennys.com/contenidos/1612268770.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  margin-bottom: 1.25rem;
+}
+
+.contenedor {
+  max-width: 1100px;
+}
+.contenedor h1 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.contenedor .promo {
+  padding: 0rem 1.25rem;
+  text-align: start;
+  display: grid;
+}
+.contenedor .promo .img-promo {
+  width: 100%;
+}
+.contenedor .promo .promo-verde {
+  color: #7BA744;
+  margin-top: 0.625rem;
+}
+.contenedor .promo .promo-titulo {
+  font-size: 1.3125rem;
+}
+.contenedor .promo .promo-acumulable {
+  font-size: 0.875rem;
+  color: #A4A4A4;
+  margin: 0.9375rem 0rem 1.5625rem 0rem;
+}
+.contenedor .promo .promo-button {
+  display: grid;
+}
+.contenedor .promo .promo-button button {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid #67A744 0.125rem;
+  color: #67A744;
+  font-size: 0.9375rem;
+  padding: 0.3125rem 0rem;
+  margin-top: 0.625rem;
+}
+.contenedor .promo .promo-acumulable-2 {
+  font-size: 0.875rem;
+  color: #A4A4A4;
+  margin: 0.9375rem 0rem 0rem 0rem;
+}
+
+@media (min-width: 768px) {
+  .cover-promociones {
+    height: 18.125rem;
+  }
+  .promo {
+    grid-template-columns: 45% 55%;
+  }
+  .promo img {
+    width: 35%;
+  }
+  .promo-button {
+    width: 12.5rem;
+  }
+  .contenedor {
+    width: 95%;
+    margin: auto;
+  }
+  .seguinos-botones button {
+    width: 18.75rem;
+  }
+  .seguinos-text {
+    margin: 0;
+    width: 100%;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.9375rem;
+  }
+  footer ul {
+    flex-direction: row;
+  }
+  .footer-final-rrss {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+  }
+  .footer-final-rrss-icons {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  .footer-final-button {
+    display: flex;
+  }
+  .footer-final-button button {
+    width: 8.125rem;
+  }
+  .footer-final {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.625rem;
+  }
+  .footer-parte-2 {
+    flex-grow: 1;
+  }
+  .historia {
+    display: flex;
+    flex-direction: row;
+  }
+  .historia img {
+    width: 40%;
+  }
+  .historia-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .trabajo {
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .index_main {
+    display: block;
+  }
+  .locales_320px {
+    display: none;
+  }
+  .locales_768px {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+  }
+  .locales_768px .local {
+    padding: 3.125rem 2.5rem;
+    margin: 0;
+    width: 70%;
+  }
+  .locales_768px .local .lista_locales {
+    margin-top: 0.9375rem;
+    height: 21.875rem;
+    overflow: auto;
+  }
+  .locales_768px .lista_locales_content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .locales_768px .lista_locales_content h3 {
+    font-size: 1.125rem;
+  }
+  .locales_768px .lista_locales_content p {
+    font-size: 0.8125rem;
+  }
+  .locales_768px .lista_locales_content .lista_locales_content_info {
+    margin: 0;
+  }
+  .locales_768px .lista_locales_content .lista_locales_content_ver {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-items: center;
+    align-items: center;
+  }
+  .locales_768px .lista_locales_content .lista_locales_content_ver h4 {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+  .locales_768px .map {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .locales_768px .map img {
+    height: 100%;
+  }
+  .clasificacion {
+    max-width: 68.75rem;
+  }
+  .menu_main {
+    display: grid;
+    justify-items: center;
+  }
+  .menu_main .seguinos {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .seguinos {
+    display: grid;
+    justify-items: center;
+  }
+  .seguinos .seguinos-botones {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    align-content: center;
+    width: 85%;
+    margin-top: 0;
+  }
+  .seguinos .seguinos-botones button {
+    padding: 0;
+    width: 100%;
+  }
+  footer .footer_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  .footer-final-copy p {
+    font-size: 0.625rem;
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

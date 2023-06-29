@@ -1,0 +1,59 @@
+.locales_img {
+  background-image: url(../img/locales_background_img.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 18.0625rem;
+  margin-bottom: 2.5rem;
+}
+
+.locales {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+
+  h2 {
+    margin-bottom: .625rem;
+  }
+
+  p {
+    margin-bottom: 1.875rem;
+  }
+
+  .locales_fotos_contenedor {
+    margin: 0rem .625rem 3.75rem .625rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .625rem;
+    max-width: 1100px;
+
+    .locales_fotos {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+
+      img {
+        width: 100%;
+        max-width: 20.8125rem;
+        max-height: 20.8125rem;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        width: 100%;
+
+        button {
+          border: solid .1875rem $green;
+          color: $green;
+          background-color: $transparent;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

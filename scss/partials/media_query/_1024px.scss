@@ -1,0 +1,36 @@
+@media (min-width: 1024px) {
+  .seguinos {
+    display: grid;
+    justify-items: center;
+    
+    .seguinos-botones {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      align-items: center;
+      align-content: center;
+      width: 85%;
+      margin-top: 0;
+
+      button {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  footer {
+    .footer_container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 20% 80%;
+    }
+
+  }
+
+  .footer-final-copy {
+    p {
+      font-size: .625rem;
+      text-align: left;
+    }
+  }
+}
